@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
 int main() {
-    char a;
-    cout << "Enter the character: ";
-    cin >> a;
+    int n;
+    cout << "Enter the value of n: ";
+    cin >> n;
+    int sum =0;
 
-    if (a >= 97 && a <= 122) {
-        cout << "Lowercase";
-    } else {
-        cout << "Uppercase";
-    }
+    for (int i=0; i<=n; i++) { 
+        
+        sum+=i;
+        
+    } cout << sum;
     return 0;
 }
